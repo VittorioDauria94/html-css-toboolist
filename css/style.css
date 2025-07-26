@@ -66,3 +66,18 @@ body {
     border-color: rgb(211, 211, 211);
 }
 
+/* list section */
+.setting-list {
+    margin-top: 20px;
+    margin-left: 30px;
+    list-style: none;
+}
+
+.collapse {
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.list-title {
+    font-size: 23px;
+}
