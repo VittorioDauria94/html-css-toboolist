@@ -8,12 +8,15 @@
 
 /* utility */
 .container {
-    max-width: 1080px;
-    margin: 0 auto;
+    max-width: 800px;
+    margin: 40px auto;
+    min-height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
 }
 
 body {
-    background-color: rgb(148, 161, 165);
+    background-color: rgb(212, 227, 231);
 }
 
 /* banner */
@@ -34,4 +37,32 @@ body {
     display: inline-block;
     vertical-align: middle;
     font-size: 40px;
+
 }
+
+/* buttons */
+#buttons {
+    border-bottom: 2px solid rgb(212, 227, 231);
+    padding: 10px;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 5px 7px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.task-btn {
+    color: white;
+    border-color: transparent;
+    background-color: rgb(70, 173, 242);
+    margin-left: 20px;
+}
+
+.section-btn {
+    color: rgb(211, 211, 211);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(211, 211, 211);
+}
+
