@@ -3,10 +3,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 /* utility */
 .container {
     max-width: 1080px;
     margin: 0 auto;
+}
+
+body {
+    background-color: rgb(148, 161, 165);
+}
+
+/* banner */
+#banner {
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.b-logo {
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.title {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
 }
