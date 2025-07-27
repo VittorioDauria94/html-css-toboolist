@@ -1,4 +1,5 @@
 /* css reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
 }
 
 /* utility */
+
 .container {
     max-width: 800px;
     margin: 40px auto;
@@ -20,6 +22,7 @@ body {
 }
 
 /* banner */
+
 #banner {
     height: 80px;
     background-color: rgb(255, 255, 255);
@@ -41,6 +44,7 @@ body {
 }
 
 /* buttons */
+
 #buttons {
     border-bottom: 2px solid rgb(212, 227, 231);
     padding: 10px;
@@ -67,6 +71,7 @@ body {
 }
 
 /* list section */
+
 #list {
     margin-top: 20px;
     margin-left: 30px;
@@ -80,7 +85,7 @@ body {
 
 .collapse {
     font-size: 14px;
-    margin-right: 3px;
+    margin-right: 5px;
 }
 
 .list-title {
@@ -94,8 +99,10 @@ body {
 
 .inside-list {
     vertical-align: middle;
-    margin-top: 5px;
+    margin-top: 15px;
 }
+
+/* check and cross layout */
 
 .circle-box {
     display: inline-block;
@@ -114,6 +121,13 @@ body {
     border: 1px solid green;
 }
 
+.cross {
+    color: red;
+    border: 1px solid red;
+}
+
+/* labels layout */
+
 .label {
     margin-left: 10px;
     display: inline-block;
@@ -129,4 +143,16 @@ body {
 
 .editorial-label {
     background-color: rgb(68, 171, 235);
+}
+
+.q1-label {
+    background-color: rgb(155, 113, 227);
+}
+
+.recruiting-label {
+    background-color: rgb(99, 191, 168);
+}
+
+.mobile-label {
+    background-color: rgb(242, 159, 51);
 }
