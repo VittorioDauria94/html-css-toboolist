@@ -31,10 +31,10 @@
     <main class="container">
 
         <!-- buttons section -->
-        <section id="buttons">
+        <div id="buttons">
             <button class="btn task-btn" type="button"><strong>Add Task</strong></button>
             <button class="btn section-btn" type="button"><strong>Add Section</strong></button>
-        </section>
+        </div>
 
         <!-- list section -->
         <section id="list">
@@ -78,7 +78,29 @@
                 </li>
 
                 <!-- Upcoming list -->
-                <li><span class="collapse">&#9660;</span><strong class="list-title">Upcoming</strong></li>
+                <li><span class="collapse">&#9660;</span><strong class="list-title">Upcoming</strong>
+                    <ul class="setting-list">
+                        <li class="inside-list">
+                            <span class="circle-box cross">&cross;</span>
+                            <strong class="list-subtitle">Schedule meeting with Alex</strong>
+                        </li>
+                        <li class="inside-list">
+                            <span class="circle-box check">&check;</span>
+                            <strong class="list-subtitle">Homepage refresh</strong>
+                            <label class="label website-label">Website</label>
+                        </li>
+                        <li class="inside-list">
+                            <span class="circle-box check">&check;</span>
+                            <strong class="list-subtitle">Onboard new Sales team members</strong>
+                            <label class="label sales-label">Sales</label>
+                        </li>
+                        <li class="inside-list">
+                            <span class="circle-box check">&check;</span>
+                            <strong class="list-subtitle">Review editorial calendar</strong>
+                            <label class="label editorial-label">Editorial</label>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </section>
 

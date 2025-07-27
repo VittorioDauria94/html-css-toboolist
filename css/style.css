@@ -59,7 +59,7 @@ body {
 
 .task-btn {
     color: white;
-    border-color: transparent;
+    border-color: rgb(70, 173, 242);
     background-color: rgb(70, 173, 242);
     margin-left: 20px;
 }
@@ -99,7 +99,7 @@ body {
 
 .inside-list {
     vertical-align: middle;
-    margin-top: 15px;
+    margin-top: 18px;
 }
 
 /* check and cross layout */
@@ -109,11 +109,12 @@ body {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 8px;
     vertical-align: middle;
     text-align: center;
     font-size: 13px;
     font-weight: bolder;
+    margin-bottom: 4px;
 }
 
 .check {
@@ -155,4 +156,12 @@ body {
 
 .mobile-label {
     background-color: rgb(242, 159, 51);
+}
+
+.website-label {
+    background-color: rgb(217, 100, 162);
+}
+
+.sales-label {
+    background-color: rgb(177, 201, 38);
 }
